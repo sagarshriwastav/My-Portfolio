@@ -4,8 +4,7 @@ const app = express();
 const cors = require("cors")
 require("./db/connection")
 const router = require("./Routes/router")
-const PORT = process.env.PORT || 6002;
-
+const PORT = process.env.PORT || 6002; 
 
 app.use(cors());
 app.use(express.json())
@@ -21,7 +20,6 @@ app.use(router);
 app.listen(PORT, () => {
   console.log(`server started running... on port ${PORT}`)
 })// checking in console whether server working or not
-
 
 
 /*const { createServer } = require("http")
