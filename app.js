@@ -18,9 +18,9 @@ app.use(router);
 
 
 
-// app.listen(PORT, () => {
-//   console.log(`server started running... on port ${PORT}`)
-// })// checking in console whether server working or not
+app.listen(PORT, () => {
+  console.log(`server started running... on port ${PORT}`)
+})// checking in console whether server working or not
 
 
 
